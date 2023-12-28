@@ -1,2 +1,34 @@
 /* Import from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Saira:ital@1&display=swap');
+
+/* Asterisk wildcard - This is the same code used in the love running project I will use it to apply to my website */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* General Project Styles */
+    font-family: 'saira', sans-serif;
+}
+
+/** Header **/
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    padding: 0 1rem;
+    width: 100%;
+    z-index: 99;
+    text-decoration: none;
+}
