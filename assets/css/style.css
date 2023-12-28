@@ -190,4 +190,12 @@ body {
     padding: 2px;
     margin-left: 45px;
 }
+
+.you-picked {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 80px;
+    align-items: center;
+}
 }
