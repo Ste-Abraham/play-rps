@@ -72,6 +72,37 @@ h2 {
     text-align: center;
 }
 
+.make-a-pick {
+    display: block;
+    height: auto;
+    width: 320px;
+    text-align: center;
+}
+
+.you-picked {
+    display: flex;
+    justify-content: center;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.player1 {
+    height: 350px;
+    width: 350px;
+    padding: 2px;
+    margin: 0;
+}
+
+.computer {
+    height: 350px;
+    width: 350px;
+    padding: 2px;
+    margin: 0;
+}
 /** Footer **/
 
 footer {
