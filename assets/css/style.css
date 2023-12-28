@@ -49,3 +49,59 @@ main {
 h2 {
     text-align: center;
 }
+
+.choice {
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.choice button {
+    height: 50px;
+    width: 80%;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    margin: auto;
+    margin-bottom: 7px;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/** Footer **/
+
+footer {
+    background-color: black;
+}
+
+#footer-writing {
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+#footer-links {
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+i {
+    font-size: 180%;
+    color: white;
+    margin: 20px;
+}
+
+body {
+    color: black;
+    display: block;
+    justify-content: center;
+    margin: auto;
+}
