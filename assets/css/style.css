@@ -121,6 +121,7 @@ img {
 
 footer {
     background-color: black;
+    height: auto;
 }
 
 #footer-writing {
