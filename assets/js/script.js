@@ -80,3 +80,22 @@ function gameImages(playerChoice, computerChoice) {
     computerImage.src = `assets/images/${computerChoice}.png`;
     computerImage.alt = choices[computerChoice];
 }
+
+/** The below code updates Player1's score and increments it by 1 everytime you win a round **/
+
+function incrementUserScore() {
+    let oldScore = parseInt(document.getElementById("player1score").innerText);
+    document.getElementById("player1score").innerText = ++oldScore;
+    completeRound();
+}
+
+/** The below code updates computers score and increments it by 1 everytime they win a round **/
+
+function incrementComputerScore() {
+    let oldScore = parseInt(document.getElementById("computerscore").innerText);
+    document.getElementById("computerscore").innerText = ++oldScore;
+    completeRound();
+
+}
+
+/** The below code makes the rock paper scissors game best out of 7 - and gives a message to announce winner at the end of the game **/
