@@ -99,3 +99,29 @@ function incrementComputerScore() {
 }
 
 /** The below code makes the rock paper scissors game best out of 7 - and gives a message to announce winner at the end of the game **/
+
+function limitGameToBestOutOfNine() {
+    let score = parseInt(document.getElementById("player1score").innerText);
+    let mistakes = parseInt(document.getElementById("computerscore").innerText);
+
+
+    if (score > mistakes) {
+        alert('Congrats Player1 has won the game!');
+    } else if (mistakes > score) {
+        alert('Congrats computer has won the game!');
+    } else {
+        alert('It\'s a tie!');
+    }
+}
+
+function completeRound() {
+    let userScore = parseInt(document.getElementById("player1score").innerText);
+    let computerScore = parseInt(document.getElementById("computerscore").innerText);
+
+
+    if ((userScore + computerScore) == 7) {
+        limitGameToBestOutOfNine();
+        resetScore();
+    }
+
+}
