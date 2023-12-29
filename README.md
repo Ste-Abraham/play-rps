@@ -75,6 +75,14 @@ Manual testing was carried out on the deployed website in two browsers, chrome, 
 
 The responsiveness of the site was checked from 280px which is for a Galaxy Fold, up to tablet and desktop size. The site looks good in all formats, and nothing is lost on any of the screens.
 
+The javascript worked as desired generating a random image for computers choice and the selected image for players choice. It declared the correct winner and updated the scores as required.
+
+The lighthouse report came back with great results and have give me no reason to be alarmed.
+
+![Screenshot of lighthouse report](/assets/readme-images/lighthouse-report.png)
+
+
+
 ### Validator Testing
 
 ![Screenshot of html validator](/assets/readme-images/html-validator.png)
@@ -111,4 +119,14 @@ The steps to achieve this were:
 -	The link to my live site can be found here – [Play-Rock, Paper, Scissors](https://ste-abraham.github.io/play-rps/)
 
 ## Credits
+
+- Wildcard selector piece of code from Love running project.
+- A lot of the code I took inspiration from my first project DA Plating Jigs
+- Icons for footer the same process was followed love running project.
+- Font awesome for icons.
+- Google fonts for font.
+- A lot of inspiration from love maths walkthrough project and was using course materials.
+- All images are taken from google images creative common license tool.
+- The following github respository was used to help with the javascript section.
+<https://github.com/kubowania/rock-paper-scissors-x3/blob/main/rock-paper-scissors-examples/rock-paper-scissors-example-1/app.js>
 
