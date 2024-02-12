@@ -63,7 +63,6 @@ function getResult() {
         incrementComputerScore();
     }
     document.getElementById('result').innerHTML = result;
-    toggleBackgroundColor();
 }
 
 /** The below code makes the image change in the game area to suit the player and computers choice **/
@@ -121,7 +120,6 @@ function completeRound() {
 
     if ((userScore + computerScore) == 7) {
         limitGameToBestOutOfNine();
-        resetScore();
     }
 
 }
